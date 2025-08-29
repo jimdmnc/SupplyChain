@@ -1096,3 +1096,11 @@
 2025-08-22 11:53:22 - Success: User logged in, ID: 2, Role: admin
 2025-08-29 08:50:26 - Login attempt for username: businessadmin
 2025-08-29 08:50:26 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 08:55:29 - Login attempt for username: businessadmin
+2025-08-29 08:55:29 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 08:56:35 - Login attempt for username: businessadmin
+2025-08-29 08:56:35 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 08:57:57 - Login attempt for username: businessadmin
+2025-08-29 08:57:57 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 09:04:08 - Login attempt for username: businessadmin
+2025-08-29 09:04:08 - Success: User logged in, ID: 2, Role: admin
