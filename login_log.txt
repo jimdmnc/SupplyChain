@@ -1094,3 +1094,5 @@
 2025-08-17 21:08:03 - Success: User logged in, ID: 32, Role: retailer
 2025-08-22 11:53:19 - Login attempt for username: businessadmin
 2025-08-22 11:53:22 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 08:50:26 - Login attempt for username: businessadmin
+2025-08-29 08:50:26 - Success: User logged in, ID: 2, Role: admin
