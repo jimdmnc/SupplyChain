@@ -189,3 +189,7 @@
 2025-08-15 15:35:57 - Resent verification email to: benchlaxa@gmail.com
 2025-08-16 17:20:25 - Resent verification email to: karushika7@gmail.com
 2025-08-17 16:56:40 - Resent verification email to: ehe98576@gmail.com
+2025-08-29 09:54:29 - Failed to resend verification email to: egam@gmail.com
+2025-08-29 10:01:04 - Failed to resend verification email to: mananabas0805@gmail.com
+2025-08-29 10:01:49 - Failed to resend verification email to: mananabas0805@gmail.com
+2025-08-29 10:04:02 - Failed to resend verification email to: magegonzales05@gmail.com

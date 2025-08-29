@@ -268,3 +268,24 @@
 2025-08-17 16:56:33 - Attempting to send verification email to: ehe98576@gmail.com
 2025-08-17 16:56:33 - Logo found and encoded
 2025-08-17 16:56:40 - Verification email sent successfully to: ehe98576@gmail.com
+2025-08-29 09:54:24 - Attempting to send verification email to: egam@gmail.com
+2025-08-29 09:54:24 - Logo found and encoded
+2025-08-29 09:54:27 - Error sending verification email: SMTP Error: Could not authenticate.
+2025-08-29 09:54:27 - Attempting to send verification email to: egam@gmail.com
+2025-08-29 09:54:27 - Logo found and encoded
+2025-08-29 09:54:29 - Error sending verification email: SMTP Error: Could not authenticate.
+2025-08-29 10:00:56 - Attempting to send verification email to: mananabas0805@gmail.com
+2025-08-29 10:00:56 - Logo found and encoded
+2025-08-29 10:00:58 - Error sending verification email: SMTP Error: Could not authenticate.
+2025-08-29 10:00:58 - Attempting to send verification email to: mananabas0805@gmail.com
+2025-08-29 10:00:58 - Logo found and encoded
+2025-08-29 10:01:04 - Error sending verification email: SMTP Error: Could not authenticate.
+2025-08-29 10:01:48 - Attempting to send verification email to: mananabas0805@gmail.com
+2025-08-29 10:01:48 - Logo found and encoded
+2025-08-29 10:01:49 - Error sending verification email: SMTP Error: Could not authenticate.
+2025-08-29 10:03:58 - Attempting to send verification email to: magegonzales05@gmail.com
+2025-08-29 10:03:58 - Logo found and encoded
+2025-08-29 10:04:00 - Error sending verification email: SMTP Error: Could not authenticate.
+2025-08-29 10:04:00 - Attempting to send verification email to: magegonzales05@gmail.com
+2025-08-29 10:04:00 - Logo found and encoded
+2025-08-29 10:04:02 - Error sending verification email: SMTP Error: Could not authenticate.

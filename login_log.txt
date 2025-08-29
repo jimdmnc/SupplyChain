@@ -1096,3 +1096,11 @@
 2025-08-22 11:53:22 - Success: User logged in, ID: 2, Role: admin
 2025-08-29 08:50:26 - Login attempt for username: businessadmin
 2025-08-29 08:50:26 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 09:27:59 - Login attempt for username: businessadmin
+2025-08-29 09:27:59 - Error: Invalid password
+2025-08-29 09:28:05 - Login attempt for username: businessadmin
+2025-08-29 09:28:05 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 10:04:32 - Login attempt for username: mananabas0805
+2025-08-29 10:04:32 - Error: Retailer account pending approval for user ID: 45
+2025-08-29 10:05:00 - Login attempt for username: businessadmin
+2025-08-29 10:05:00 - Success: User logged in, ID: 2, Role: admin

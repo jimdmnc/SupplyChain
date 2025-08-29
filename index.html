@@ -137,10 +137,11 @@
                                 <script>
   // Initialize Flatpickr
   flatpickr("#birthday", {
-    dateFormat: "Y/m/d",
-    maxDate: "today",
-    allowInput: true
-  });
+  dateFormat: "Y/m/d",
+  maxDate: new Date().fp_incr(-365.3 * 18), 
+  allowInput: true
+});
+
 
   // Auto-insert slashes as user types
   document.getElementById("birthday").addEventListener("input", function (e) {

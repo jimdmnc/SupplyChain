@@ -67,3 +67,10 @@
 2025-08-16 17:20:18 - Generated URL: http://localhost/SupplyChainCapstone/verify_email.php?token=12e725a1e2973ce85eba52d717a15bde8dea9844148a2f29867843df46ffaacd
 2025-08-17 16:56:25 - Generated URL: http://localhost/SupplyChainCapstone/verify_email.php?token=df2997f7adb67363b91dfb85955747d9d17b39343b6b9d97df0c9f5e1d2f7e07
 2025-08-17 16:56:33 - Generated URL: http://localhost/SupplyChainCapstone/verify_email.php?token=a1936dd45494b88675023a5010b4cb0d9f01fa1af41f29eafa1d0269eef4f28c
+2025-08-29 09:54:24 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=068b719cfe1f2720f55329c58cc757473de23d6422087e48d9871f8bcf270ff3
+2025-08-29 09:54:27 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=eff3f30356b17e60fccca34da551611cf56ab18c9d27bb5f06e46018ab36c476
+2025-08-29 10:00:56 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=a03b716dcdd0d21ba0508d4ac6189417e35e42ba8354602d0f86a7a50587facc
+2025-08-29 10:00:58 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=c989775d56ece12b870bd6b5b44d6f91c60c49bbd5376cad954c8f78a9b33331
+2025-08-29 10:01:48 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=ac2791a91f119474519461167354a9c9cbdbc5b85efdcd5fb28c1124170c7bfd
+2025-08-29 10:03:58 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=068f2d0b36a7853cd1e308d9df9a2964577ca15bfef6959e02e7d566c9efe4a2
+2025-08-29 10:04:00 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=61c1b71da40564bc25992a61d5d82ed3e8cc90d01a8416fc73898df323d3b5b2

@@ -51,3 +51,15 @@
 2025-08-16 17:20:18 - Registration successful for: betry lang, Email: karushika7@gmail.com, User ID: 45 (Status: pending, Active: 0)
 2025-08-17 16:56:23 - Registration attempt for: wr wrw, Email: ehe98576@gmail.com
 2025-08-17 16:56:33 - Registration successful for: wr wrw, Email: ehe98576@gmail.com, User ID: 46 (Status: pending, Active: 0)
+2025-08-29 09:54:04 - Registration attempt for: egam egam, Email: egam@gmail.com
+2025-08-29 09:54:24 - Registration attempt for: egam egam, Email: egam@gmail.com
+2025-08-29 09:54:27 - Warning: Failed to send verification email to: egam@gmail.com
+2025-08-29 09:54:27 - Registration successful for: egam egam, Email: egam@gmail.com, User ID: 44 (Status: pending, Active: 0)
+2025-08-29 10:00:56 - Registration attempt for: mananabas mananabas, Email: mananabas0805@gmail.com
+2025-08-29 10:00:58 - Warning: Failed to send verification email to: mananabas0805@gmail.com
+2025-08-29 10:00:58 - Registration successful for: mananabas mananabas, Email: mananabas0805@gmail.com, User ID: 45 (Status: pending, Active: 0)
+2025-08-29 10:03:26 - Registration attempt for: mananabas mananabas, Email: mananabas0805@gmail.com
+2025-08-29 10:03:49 - Registration attempt for: mananabas mananabas, Email: mananabas0805@gmail.com
+2025-08-29 10:03:58 - Registration attempt for: mananabas mananabas, Email: magegonzales05@gmail.com
+2025-08-29 10:04:00 - Warning: Failed to send verification email to: magegonzales05@gmail.com
+2025-08-29 10:04:00 - Registration successful for: mananabas mananabas, Email: magegonzales05@gmail.com, User ID: 46 (Status: pending, Active: 0)
