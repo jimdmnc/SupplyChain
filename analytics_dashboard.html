@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecom Analytics Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fdd771;
+
+      min-height: 100vh;
+      padding: 2rem;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .loading {
+      text-align: center;
+      color: white;
+      font-size: 1.2rem;
+      margin: 2rem 0;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .summary-card {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.2);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .summary-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .summary-card h2 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .summary-card p {
+      color: #666;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .chart-card {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .chart-title {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      color: #333;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 400px;
+      margin-bottom: 1rem;
+    }
+
+    .table-card {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.2);
+      margin-bottom: 2rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      color: #333;
+      font-weight: 600;
+      border-bottom: 3px solid #667eea;
+      padding-bottom: 0.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+
+    th {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+    }
+
+    tr:hover {
+      background-color: #f8f9ff;
+    }
+
+    .error {
+      background: #ff6b6b;
+      color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+      
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .chart-container {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Ecom Analytics Dashboard</h1>
+    <div class="loading" id="loading">Loading analytics data...</div>
+    <div id="dashboard" style="display: none;"></div>
+  </div>
+
+  <script>
+    let salesChart, productsChart, regionalChart;
+
+    async function loadAnalytics() {
+      try {
+        const res = await fetch('https://pinyana-gourmet.com/api/fetchOrderAnalytics.php');
+        const data = await res.json();
+        
+        const dashboard = document.getElementById('dashboard');
+        const loading = document.getElementById('loading');
+
+        if (data.error) {
+          loading.innerHTML = `<div class="error">Error: ${data.error}</div>`;
+          return;
+        }
+
+        loading.style.display = 'none';
+        dashboard.style.display = 'block';
+
+        // Summary cards
+        dashboard.innerHTML = `
+          <div class="summary-grid">
+            <div class="summary-card">
+              <h2>${data.totalOrders}</h2>
+              <p>Total Orders</p>
+            </div>
+            <div class="summary-card">
+              <h2>₱${data.totalRevenue.toLocaleString()}</h2>
+              <p>Total Revenue</p>
+            </div>
+            <div class="summary-card">
+              <h2>₱${data.totalDiscount.toLocaleString()}</h2>
+              <p>Total Discounts</p>
+            </div>
+          </div>
+        `;
+
+        // Charts section
+        dashboard.innerHTML += `
+          <div class="chart-grid">
+            <div class="chart-card">
+              <div class="chart-title">Sales Trend</div>
+              <div class="chart-container">
+                <canvas id="salesChart"></canvas>
+              </div>
+            </div>
+            <div class="chart-card">
+              <div class="chart-title">Top Products Performance</div>
+              <div class="chart-container">
+                <canvas id="productsChart"></canvas>
+              </div>
+            </div>
+          </div>
+        `;
+
+        dashboard.innerHTML += `
+          <div class="chart-card">
+            <div class="chart-title">Regional Sales Distribution</div>
+            <div class="chart-container">
+              <canvas id="regionalChart"></canvas>
+            </div>
+          </div>
+        `;
+
+        // Tables section
+        dashboard.innerHTML += `
+          <div class="table-card">
+            <div class="section-title">Sales By Date</div>
+            <table>
+              <thead>
+                <tr><th>Date</th><th>Total Sales</th></tr>
+              </thead>
+              <tbody>
+                ${Object.entries(data.salesByDate).map(([date, amount]) =>
+                  `<tr><td>${date}</td><td>₱${amount.toLocaleString()}</td></tr>`
+                ).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+
+        dashboard.innerHTML += `
+          <div class="table-card">
+            <div class="section-title">Top Products</div>
+            <table>
+              <thead>
+                <tr><th>Product</th><th>Quantity Sold</th></tr>
+              </thead>
+              <tbody>
+                ${data.topProducts.map(p =>
+                  `<tr><td>${p.name}</td><td>${p.quantity}</td></tr>`
+                ).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+
+        dashboard.innerHTML += `
+          <div class="table-card">
+            <div class="section-title">Sales By Province</div>
+            <table>
+              <thead>
+                <tr><th>Province</th><th>Total Sales</th></tr>
+              </thead>
+              <tbody>
+                ${Object.entries(data.regionalSales).map(([prov, amount]) =>
+                  `<tr><td>${prov}</td><td>₱${amount.toLocaleString()}</td></tr>`
+                ).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+
+        // Create charts after DOM is updated
+        setTimeout(() => {
+          createCharts(data);
+        }, 100);
+
+      } catch (error) {
+        document.getElementById('loading').innerHTML = `<div class="error">Failed to load data: ${error.message}</div>`;
+      }
+    }
+
+    function createCharts(data) {
+      // Sales trend chart
+      const salesCtx = document.getElementById('salesChart');
+      if (salesCtx) {
+        const salesDates = Object.keys(data.salesByDate);
+        const salesAmounts = Object.values(data.salesByDate);
+
+        salesChart = new Chart(salesCtx, {
+          type: 'line',
+          data: {
+            labels: salesDates,
+            datasets: [{
+              label: 'Daily Sales (₱)',
+              data: salesAmounts,
+              borderColor: '#667eea',
+              backgroundColor: 'rgba(102, 126, 234, 0.1)',
+              borderWidth: 3,
+              fill: true,
+              tension: 0.4,
+              pointBackgroundColor: '#667eea',
+              pointBorderColor: '#fff',
+              pointBorderWidth: 2,
+              pointRadius: 6
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: false
+              }
+            },
+            scales: {
+              y: {
+                beginAtZero: true,
+                ticks: {
+                  callback: function(value) {
+                    return '₱' + value.toLocaleString();
+                  }
+                }
+              }
+            }
+          }
+        });
+      }
+
+      // Top products chart
+      const productsCtx = document.getElementById('productsChart');
+      if (productsCtx) {
+        const productNames = data.topProducts.map(p => p.name);
+        const productQuantities = data.topProducts.map(p => p.quantity);
+
+        productsChart = new Chart(productsCtx, {
+          type: 'bar',
+          data: {
+            labels: productNames,
+            datasets: [{
+              label: 'Quantity Sold',
+              data: productQuantities,
+              backgroundColor: [
+                '#667eea',
+                '#764ba2',
+                '#f093fb',
+                '#f5576c',
+                '#4facfe',
+                '#00f2fe'
+              ],
+              borderRadius: 8,
+              borderSkipped: false
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: false
+              }
+            },
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      }
+
+      // Regional sales chart
+      const regionalCtx = document.getElementById('regionalChart');
+      if (regionalCtx) {
+        const provinces = Object.keys(data.regionalSales);
+        const regionalAmounts = Object.values(data.regionalSales);
+
+        regionalChart = new Chart(regionalCtx, {
+          type: 'doughnut',
+          data: {
+            labels: provinces,
+            datasets: [{
+              data: regionalAmounts,
+              backgroundColor: [
+                '#667eea',
+                '#764ba2',
+                '#f093fb',
+                '#f5576c',
+                '#4facfe',
+                '#00f2fe',
+                '#43e97b',
+                '#38f9d7'
+              ],
+              borderWidth: 0,
+              hoverOffset: 10
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'bottom',
+                labels: {
+                  padding: 20,
+                  usePointStyle: true
+                }
+              },
+              tooltip: {
+                callbacks: {
+                  label: function(context) {
+                    return context.label + ': ₱' + context.parsed.toLocaleString();
+                  }
+                }
+              }
+            }
+          }
+        });
+      }
+    }
+
+    // Load analytics on page load
+    loadAnalytics();
+  </script>
+</body>
+</html>

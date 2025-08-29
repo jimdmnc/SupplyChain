@@ -1,0 +1,5 @@
+[17-Aug-2025 21:22:40 Europe/Berlin] PHP Warning:  require_once(mail_low_stock.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\SupplyChainCapstone\Retailer\complete_order.php on line 13
+[17-Aug-2025 21:22:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'mail_low_stock.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\SupplyChainCapstone\Retailer\complete_order.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\SupplyChainCapstone\Retailer\complete_order.php on line 13

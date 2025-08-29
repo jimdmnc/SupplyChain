@@ -1,0 +1,191 @@
+2025-04-10 10:34:31 - Resend email attempt to wantargaryen@gmail.com: Failed
+2025-04-10 10:41:00 - Attempting to send email to: wantargaryen@gmail.com
+2025-04-10 10:41:00 - [DEV MODE] Email would be sent to: wantargaryen@gmail.com
+2025-04-10 10:41:00 - [DEV MODE] Subject: Piñana Gourmet - Verify Your Email
+2025-04-10 10:41:00 - [DEV MODE] Message: 
+    
+    
+        Verify Your Email
+        
+            body {
+                font-family: ...
+2025-04-10 10:41:00 - [DEV MODE] Email saved to: emails/1744274460_999b5089f060297b81ac9121c6520cb9.html
+2025-04-10 10:41:06 - Attempting to send email to: wantargaryen@gmail.com
+2025-04-10 10:41:06 - [DEV MODE] Email would be sent to: wantargaryen@gmail.com
+2025-04-10 10:41:06 - [DEV MODE] Subject: Piñana Gourmet - Verify Your Email
+2025-04-10 10:41:06 - [DEV MODE] Message: 
+    
+    
+        Verify Your Email
+        
+            body {
+                font-family: ...
+2025-04-10 10:41:06 - [DEV MODE] Email saved to: emails/1744274466_999b5089f060297b81ac9121c6520cb9.html
+2025-04-10 10:41:27 - Attempting to send email to: aeroizclive@gmail.com
+2025-04-10 10:41:27 - [DEV MODE] Email would be sent to: aeroizclive@gmail.com
+2025-04-10 10:41:27 - [DEV MODE] Subject: Piñana Gourmet - Verify Your Email
+2025-04-10 10:41:27 - [DEV MODE] Message: 
+    
+    
+        Verify Your Email
+        
+            body {
+                font-family: ...
+2025-04-10 10:41:27 - [DEV MODE] Email saved to: emails/1744274487_ce24692b3ce8aa4b8547e4294f485684.html
+2025-04-10 10:47:00 - Attempting to send email to: tuhtargaryen@gmail.com
+2025-04-10 10:47:00 - [DEV MODE] Email would be sent to: tuhtargaryen@gmail.com
+2025-04-10 10:47:00 - [DEV MODE] Subject: Piñana Gourmet - Verify Your Email
+2025-04-10 10:47:00 - [DEV MODE] Message: 
+    
+    
+        Verify Your Email
+        
+            body {
+                font-family: ...
+2025-04-10 10:47:00 - [DEV MODE] Email saved to: emails/1744274820_593cf55d17a6541003bda23b4e44edb3.html
+2025-04-10 11:04:15 - Attempting to send email to: tuhtargaryen@gmail.com
+2025-04-10 11:04:17 - Email sending failed: Failed to send email using mail() function
+2025-04-10 11:04:18 - Fallback email successfully sent to: tuhtargaryen@gmail.com
+2025-04-10 11:22:06 - Attempting to send email to: tuhtargaryen@gmail.com
+2025-04-10 11:22:08 - Email sending failed: Failed to send email using mail() function
+2025-04-10 11:22:08 - Email saved to: emails/1744276928_593cf55d17a6541003bda23b4e44edb3.html
+2025-04-10 11:22:09 - Fallback email successfully sent to: tuhtargaryen@gmail.com
+2025-04-10 11:22:17 - Attempting to send email to: tuhtargaryen@gmail.com
+2025-04-10 11:22:19 - Email sending failed: Failed to send email using mail() function
+2025-04-10 11:22:19 - Email saved to: emails/1744276939_593cf55d17a6541003bda23b4e44edb3.html
+2025-04-10 11:22:20 - Fallback email successfully sent to: tuhtargaryen@gmail.com
+2025-04-10 11:22:54 - Attempting to send email to: tuhtargaryen@gmail.com
+2025-04-10 11:22:56 - Email sending failed: Failed to send email using mail() function
+2025-04-10 11:22:56 - Email saved to: emails/1744276976_593cf55d17a6541003bda23b4e44edb3.html
+2025-04-10 11:22:57 - Fallback email successfully sent to: tuhtargaryen@gmail.com
+2025-04-10 11:23:52 - Attempting to send email to: tuhtargaryen@gmail.com
+2025-04-10 11:23:54 - Email sending failed: Failed to send email using mail() function
+2025-04-10 11:23:54 - Email saved to: emails/1744277034_593cf55d17a6541003bda23b4e44edb3.html
+2025-04-10 11:23:55 - Fallback email successfully sent to: tuhtargaryen@gmail.com
+2025-04-10 11:40:07 - Attempting to send verification email to: tuhtargaryen@gmail.com
+2025-04-10 11:40:07 - PHPMailer not installed. Using alternative method.
+2025-04-10 11:40:07 - Attempting to send verification email using mail() function to: tuhtargaryen@gmail.com
+2025-04-10 11:40:09 - Failed to send verification email using mail() function to: tuhtargaryen@gmail.com
+2025-04-10 11:40:09 - Email content saved to debug file
+2025-04-10 11:40:13 - Attempting to send verification email to: tuhtargaryen@gmail.com
+2025-04-10 11:40:13 - PHPMailer not installed. Using alternative method.
+2025-04-10 11:40:13 - Attempting to send verification email using mail() function to: tuhtargaryen@gmail.com
+2025-04-10 11:40:15 - Failed to send verification email using mail() function to: tuhtargaryen@gmail.com
+2025-04-10 11:40:15 - Email content saved to debug file
+2025-04-10 11:40:20 - Attempting to send verification email to: tuhtargaryen@gmail.com
+2025-04-10 11:40:20 - PHPMailer not installed. Using alternative method.
+2025-04-10 11:40:20 - Attempting to send verification email using mail() function to: tuhtargaryen@gmail.com
+2025-04-10 11:40:22 - Failed to send verification email using mail() function to: tuhtargaryen@gmail.com
+2025-04-10 11:40:22 - Email content saved to debug file
+2025-04-10 15:02:39 - Resent verification email to: eighthtargaryen@gmail.com
+2025-04-10 15:24:15 - Resent verification email to: eighthtargaryen@gmail.com
+2025-04-10 15:24:26 - Verification attempt with token: 0df0795725caf1220748df87da901288d537384ea5c924fa7af2c44242d7c825
+2025-04-10 15:24:32 - Welcome email sent to: eighthtargaryen@gmail.com
+2025-04-10 15:24:32 - Success: Email verified for user ID: 12
+2025-04-10 15:26:30 - Verification attempt with token: 0df0795725caf1220748df87da901288d537384ea5c924fa7af2c44242d7c825
+2025-04-10 15:26:30 - Error: Invalid or already used token
+2025-04-10 16:16:47 - Resent verification email to: aeroizclive@gmail.com
+2025-04-10 16:16:49 - Resent verification email to: aeroizclive@gmail.com
+2025-04-10 16:17:19 - Resent verification email to: aeroizclive@gmail.com
+2025-04-10 16:18:09 - Verification attempt with token: c5ca7dac884f1767fe03fbf1ca7146152ed7b5b0e50dae5b6b5d4bee3ce4907f
+2025-04-10 16:18:09 - Error: Invalid or already used token
+2025-04-10 16:40:52 - Resent verification email to: aeroizclive@gmail.com
+2025-04-10 16:41:46 - Verification attempt with token: f39bb03ed8cd272138524108276aae30b80a88979e31118e9a1152d235432eb3
+2025-04-10 16:41:50 - Welcome email sent to: aeroizclive@gmail.com
+2025-04-10 16:41:50 - Success: Email verified for user ID: 13
+2025-04-11 08:20:57 - Resent verification email to: sevencetargaryen@gmail.com
+2025-04-11 08:21:32 - Verification attempt with token: 6304fb6d4a38c650b1750b2e119930e6c3e5c2beb658740030b7ce818c4aafeb
+2025-04-11 08:21:32 - Error: Invalid or already used token
+2025-04-11 08:21:57 - Resent verification email to: sevencetargaryen@gmail.com
+2025-04-11 08:22:17 - Verification attempt with token: 89c958587df8bddae4b430658b7be00e4fb344fb09d575c5c8a919025c03bf0e
+2025-04-11 08:22:21 - Welcome email sent to: sevencetargaryen@gmail.com
+2025-04-11 08:22:21 - Success: Email verified for user ID: 17
+2025-04-11 08:28:11 - Resent verification email to: siextargaryen@gmail.com
+2025-04-11 08:29:31 - Verification attempt with token: 1f537a994f6b5e6eab3abbebe68a5e6ec3d5ae2940ebbbcab0882d513fa9ffba
+2025-04-11 08:29:36 - Welcome email sent to: siextargaryen@gmail.com
+2025-04-11 08:29:36 - Success: Email verified for user ID: 18
+2025-04-11 08:37:58 - Resent verification email to: sevencetargaryen@gmail.com
+2025-04-11 08:38:19 - Verification attempt with token: d40062f792b0782d1be947fe94528dc8488753541b43b2ea856d40aca1f28784
+2025-04-11 08:38:28 - Welcome email sent to: sevencetargaryen@gmail.com
+2025-04-11 08:38:28 - Success: Email verified for user ID: 19
+2025-04-12 02:34:20 - Resent verification email to: vanngaming2003@gmail.com
+2025-04-12 02:34:44 - Verification attempt with token: ff65db45b7cb26729412b2691ef86819961e11dfb58a5f4adef731ea011cd34b
+2025-04-12 02:34:44 - Error: Invalid or already used token
+2025-04-12 02:34:58 - Verification attempt with token: 830dc28466a5c4cbdf8a87dda92d5e11708a7bc6b080efb5d7350d3a5b99df5e
+2025-04-12 02:35:05 - Welcome email sent to: vanngaming2003@gmail.com
+2025-04-12 02:35:05 - Success: Email verified for user ID: 20
+2025-04-16 15:38:35 - Resent verification email to: tuhtargaryen@gmail.com
+2025-04-16 15:38:50 - Verification attempt with token: b0c7c7d6319671e54bdf46f44f9ba201da80fe3a95f1d45bba6e8de4e93725f4
+2025-04-16 15:38:57 - Welcome email sent to: tuhtargaryen@gmail.com
+2025-04-16 15:38:57 - Success: Email verified for user ID: 6
+2025-04-22 07:29:03 - Resent verification email to: fyavetargaryen@gmail.com
+2025-04-22 07:29:21 - Verification attempt with token: f3479c9e35ac5d3c2d0d42b85f48f816e24d92231c64c6ebb3a65261f81f3dde
+2025-04-22 07:29:31 - Welcome email sent to: fyavetargaryen@gmail.com
+2025-04-22 07:29:31 - Success: Email verified for user ID: 21
+2025-04-23 05:16:24 - Failed to resend verification email to: jamesguevarra070827@gmail.com
+2025-04-23 05:17:33 - Failed to resend verification email to: jamesguevarra070827@gmail.com
+2025-04-23 05:18:20 - Resent verification email to: jamesguevarra070827@gmail.com
+2025-04-23 05:23:07 - Verification attempt with token: 9fa1e662d0d8000ed160b56ca2edffae07b9fce97e5b83e9f8cd8c9c312d7564
+2025-04-23 05:23:14 - Welcome email sent to: jamesguevarra070827@gmail.com
+2025-04-23 05:23:14 - Success: Email verified for user ID: 22
+2025-04-23 12:13:20 - Resent verification email to: fohrtargaryen@gmail.com
+2025-04-23 12:30:52 - Resent verification email to: fohrtargaryen@gmail.com
+2025-04-23 12:31:50 - Verification attempt with token: 7094862806dcb7e31946e18f8414745c126a981205194f1ed34e65cc3cb72b1c
+2025-04-23 12:31:56 - Welcome email sent to: fohrtargaryen@gmail.com
+2025-04-23 12:31:56 - Success: Email verified for user ID: 24
+2025-05-02 06:07:26 - Resent verification email to: jamesguevarra070827@gmail.com
+2025-05-06 07:26:24 - Resent verification email to: noinetargaryen@gmail.com
+2025-05-06 14:35:08 - Resent verification email to: noinetargaryen@gmail.com
+2025-05-27 08:20:45 - Resent verification email to: zorinmagnus@gmail.com
+2025-05-27 08:21:12 - Verification attempt with token: f5648fe8a4a14a3990a7018c2ca532a4827c2a80a1368ffbcbbd52338ac87950
+2025-05-27 08:21:12 - Error: Invalid or already used token
+2025-05-27 08:21:22 - Verification attempt with token: a7edc8cbcbce3b1ff2980ad4d8e01f6ea502b64e04a68e29f03ea1f7f09bcd3a
+2025-05-27 08:21:28 - Welcome email sent to: zorinmagnus@gmail.com
+2025-05-27 08:21:28 - Success: Email verified for user ID: 28
+2025-05-28 05:36:20 - Resent verification email to: zorinmagnus@gmail.com
+2025-05-28 05:36:54 - Verification attempt with token: 72ec9f9fed996856ddb0b5ca406bf4efc27899ffee241b567de98027a716e980
+2025-05-28 05:37:00 - Welcome email sent to: zorinmagnus@gmail.com
+2025-05-28 05:37:00 - Success: Email verified for user ID: 29
+2025-06-20 08:40:15 - Resent verification email to: tureetargaryen@gmail.com
+2025-06-20 08:41:17 - Verification attempt with token: 27d6a7fee75b8479f31a3dc4a64cf3bef0879a7340b70c25ca6af13a9d7da346
+2025-06-20 08:41:17 - Error: Invalid or already used token
+2025-06-20 08:41:29 - Verification attempt with token: 27d6a7fee75b8479f31a3dc4a64cf3bef0879a7340b70c25ca6af13a9d7da346
+2025-06-20 08:41:29 - Error: Invalid or already used token
+2025-06-25 10:46:19 - Resent verification email to: vanngaming@gmail.com
+2025-06-25 11:02:00 - Resent verification email to: vanngaming2003@gmail.com
+2025-07-17 13:03:39 - Resent verification email to: siextargaryen@gmail.com
+2025-07-17 13:04:12 - Verification attempt with token: 4076149cf68c26ed2c0b757f8b6840377cc2b511b7468556d0f5f77a8e66b448
+2025-07-17 13:04:12 - Error: Invalid or already used token
+2025-07-17 13:04:23 - Verification attempt with token: cdf4431958463668d1ce4fc9f079829c10d0ddb95c97bb19715112fe765fc295
+2025-07-17 13:04:31 - Welcome email sent to: siextargaryen@gmail.com
+2025-07-17 13:04:31 - Success: Email verified for user ID: 33
+2025-07-17 13:12:51 - Verification attempt with token: 2d8cb0de28ae1ac4aaae2f3203f235e42be6b4e54e8165b0845eab502f6a9449
+2025-07-17 13:12:52 - Error: Invalid or already used token
+2025-07-17 13:12:59 - Verification attempt with token: 7583aae157d8e9ec20fdbfdceab0639bda8c3282b84ad533add031244478dce4
+2025-07-17 13:12:59 - Error: Invalid or already used token
+2025-07-17 13:13:05 - Verification attempt with token: 2d8cb0de28ae1ac4aaae2f3203f235e42be6b4e54e8165b0845eab502f6a9449
+2025-07-17 13:13:05 - Error: Invalid or already used token
+2025-07-17 13:13:15 - Verification attempt with token: 7583aae157d8e9ec20fdbfdceab0639bda8c3282b84ad533add031244478dce4
+2025-07-17 13:13:15 - Error: Invalid or already used token
+2025-07-24 15:52:56 - Resent verification email to: noinetargaryen@gmail.com
+2025-07-24 15:53:56 - Verification attempt with token: 7643500b27d6aafa492f0933525cdb34c66bfd769c4942de15826ec20ab61441
+2025-07-24 15:54:04 - Welcome email sent to: noinetargaryen@gmail.com
+2025-07-24 15:54:04 - Success: Email verified for user ID: 34
+2025-07-27 14:46:55 - Verification attempt with token: 5e77e4751cf64ce0ef4544b3f13ca562b24b5279b310d384d16bca1801c33379
+2025-07-27 14:47:10 - Welcome email sent to: siextargaryen@gmail.com
+2025-07-27 14:47:10 - Success: Email verified for user ID: 35
+2025-07-27 16:33:23 - Resent verification email to: wantargaryen@gmail.com
+2025-07-27 16:34:40 - Verification attempt with token: b116fea4ffbd58a93875118e8830768a0696309d0316beae3577dc85462c5310
+2025-07-27 16:34:58 - Welcome email sent to: wantargaryen@gmail.com
+2025-07-27 16:34:58 - Success: Email verified for user ID: 36
+2025-07-28 06:27:27 - Resent verification email to: benchlaxa5@gmail.com
+2025-07-28 06:27:37 - Resent verification email to: benchlaxa5@gmail.com
+2025-07-28 06:27:38 - Resent verification email to: benchlaxa5@gmail.com
+2025-07-28 09:47:58 - Resent verification email to: Profj@outlook.com
+2025-07-28 09:51:16 - Resent verification email to: Profj@outlook.com
+2025-07-28 09:51:18 - Resent verification email to: Profj@outlook.com
+2025-07-28 09:53:35 - Resent verification email to: johncarlolandicho13@gmail.com
+2025-07-28 09:57:04 - Resent verification email to: pural.johnashleyc@gmail.com
+2025-08-15 15:35:57 - Resent verification email to: benchlaxa@gmail.com
+2025-08-16 17:20:25 - Resent verification email to: karushika7@gmail.com
+2025-08-17 16:56:40 - Resent verification email to: ehe98576@gmail.com
