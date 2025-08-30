@@ -1096,6 +1096,7 @@
 2025-08-22 11:53:22 - Success: User logged in, ID: 2, Role: admin
 2025-08-29 08:50:26 - Login attempt for username: businessadmin
 2025-08-29 08:50:26 - Success: User logged in, ID: 2, Role: admin
+<<<<<<< Updated upstream
 2025-08-29 09:27:59 - Login attempt for username: businessadmin
 2025-08-29 09:27:59 - Error: Invalid password
 2025-08-29 09:28:05 - Login attempt for username: businessadmin
@@ -1104,3 +1105,25 @@
 2025-08-29 10:04:32 - Error: Retailer account pending approval for user ID: 45
 2025-08-29 10:05:00 - Login attempt for username: businessadmin
 2025-08-29 10:05:00 - Success: User logged in, ID: 2, Role: admin
+=======
+2025-08-29 08:55:29 - Login attempt for username: businessadmin
+2025-08-29 08:55:29 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 08:56:35 - Login attempt for username: businessadmin
+2025-08-29 08:56:35 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 08:57:57 - Login attempt for username: businessadmin
+2025-08-29 08:57:57 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 09:04:08 - Login attempt for username: businessadmin
+2025-08-29 09:04:08 - Success: User logged in, ID: 2, Role: admin
+2025-08-30 04:12:02 - Login attempt for username: businessadmin
+2025-08-30 04:12:02 - Success: User logged in, ID: 2, Role: admin
+2025-08-30 04:20:10 - Login attempt for username: businesspos
+2025-08-30 04:20:10 - Error: Invalid password
+2025-08-30 04:20:55 - Login attempt for username: businessadmin
+2025-08-30 04:20:55 - Success: User logged in, ID: 2, Role: admin
+2025-08-30 04:21:46 - Login attempt for username: businessadmin
+2025-08-30 04:21:46 - Error: Retailer account pending approval for user ID: 2
+2025-08-30 04:24:50 - Login attempt for username: businessadmin
+2025-08-30 04:24:50 - Success: User logged in, ID: 2, Role: admin
+2025-08-30 04:41:13 - Login attempt for username: businessadmin
+2025-08-30 04:41:13 - Success: User logged in, ID: 2, Role: admin
+>>>>>>> Stashed changes

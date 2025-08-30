@@ -11965,3 +11965,194 @@
 [17-Aug-2025 21:15:06 Europe/Berlin] Existing product batch tracking: DISABLED
 [17-Aug-2025 21:15:06 Europe/Berlin] No batch created - product does not have batch tracking enabled
 [17-Aug-2025 21:15:06 Europe/Berlin] Productions update - Parameters: 12, Type string length: 12
+[30-Aug-2025 04:55:21 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M029
+    [material_name] => Pineapple
+    [pieces_per_container] => 
+    [base_unit] => pieces
+    [quantity] => 1
+    [cost] => 1
+    [is_alternative_supplier] => no
+    [date_received] => 
+    [expiry_date] => 
+    [notes] => 
+)
+
+[30-Aug-2025 05:01:59 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M029
+    [material_name] => Pineapple
+    [measurement_type] => Unit
+    [pieces_per_container] => 
+    [base_unit] => pieces
+    [quantity] => 1
+    [cost] => 12
+    [is_alternative_supplier] => no
+    [date_received] => 
+    [expiry_date] => 
+    [notes] => 
+)
+
+[30-Aug-2025 05:37:10 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M028
+    [category] => Fruits
+    [material_name] => Pineapple
+    [measurement_type] => Box
+    [pieces_per_container] => 3
+    [base_unit] => pieces
+    [quantity] => 1
+    [cost] => 12
+    [is_alternative_supplier] => no
+    [date_received] => 2025-08-30
+    [expiry_date] => 2025-08-31
+    [notes] => 
+)
+
+[30-Aug-2025 06:00:57 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M028
+    [category] => Packaging
+    [material_name] => Pineapple 1
+    [measurement_type] => Box
+    [pieces_per_container] => 1
+    [base_unit] => pieces
+    [quantity] => 1
+    [cost] => 1
+    [is_alternative_supplier] => no
+    [date_received] => 
+    [expiry_date] => 
+    [notes] => 
+)
+
+[30-Aug-2025 06:05:38 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M028
+    [category] => Fruits
+    [material_name] => Pineapple 1
+    [measurement_type] => Box
+    [pieces_per_container] => 10
+    [base_unit] => pieces
+    [quantity] => 20
+    [cost] => 24
+    [is_alternative_supplier] => no
+    [date_received] => 
+    [expiry_date] => 
+    [notes] => 
+)
+
+[30-Aug-2025 06:07:22 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M029
+    [category] => Fruits
+    [material_name] => Pineapples
+    [measurement_type] => Box
+    [pieces_per_container] => 12
+    [base_unit] => pieces
+    [quantity] => 24
+    [cost] => 24
+    [is_alternative_supplier] => no
+    [date_received] => 
+    [expiry_date] => 
+    [notes] => 
+)
+
+[30-Aug-2025 06:09:21 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M029
+    [category] => Packaging
+    [material_name] => Pineapplesd
+    [measurement_type] => Pieces
+    [unit_measurement] => gal
+    [pieces_per_container] => 
+    [base_unit] => pieces
+    [quantity] => 12
+    [cost] => 212
+    [is_alternative_supplier] => no
+    [date_received] => 
+    [expiry_date] => 
+    [notes] => 
+)
+
+[30-Aug-2025 06:09:21 Europe/Berlin] Exception in save_material.php: Duplicate entry 'M029' for key 'material_id'
+[30-Aug-2025 06:13:25 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M028
+    [category] => Packaging
+    [material_name] => Pineapples
+    [measurement_type] => Box
+    [pieces_per_container] => 12
+    [base_unit] => pieces
+    [quantity] => 12
+    [cost] => 12
+    [is_alternative_supplier] => no
+    [date_received] => 
+    [expiry_date] => 
+    [notes] => 
+)
+
+[30-Aug-2025 06:14:22 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M028
+    [category] => Packaging
+    [material_name] => Pineapples
+    [measurement_type] => Pieces
+    [pieces_per_container] => 
+    [base_unit] => pieces
+    [quantity] => 12
+    [cost] => 21
+    [is_alternative_supplier] => no
+    [date_received] => 
+    [expiry_date] => 
+    [notes] => 
+)
+
+[30-Aug-2025 06:20:08 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M029
+    [category] => Packaging
+    [material_name] => Pineapplesssssss
+    [measurement_type] => Box
+    [pieces_per_container] => 25
+    [base_unit] => pieces
+    [quantity] => 25
+    [cost] => 25
+    [is_alternative_supplier] => no
+    [date_received] => 
+    [expiry_date] => 
+    [notes] => 
+)
+
+[30-Aug-2025 06:24:42 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M030
+    [category] => Fruits
+    [material_name] => Apple
+    [measurement_type] => Box
+    [pieces_per_container] => 5
+    [base_unit] => pieces
+    [quantity] => 5
+    [cost] => 500
+    [is_alternative_supplier] => no
+    [date_received] => 2025-08-01
+    [expiry_date] => 
+    [notes] => 
+)
+
+[30-Aug-2025 06:55:06 Europe/Berlin] Received material data: Array
+(
+    [material_id] => M031
+    [category] => Fruits
+    [material_name] => Pineapples
+    [measurement_type] => Box
+    [pieces_per_container] => 21
+    [base_unit] => pieces
+    [quantity] => 21
+    [cost] => 21
+    [is_alternative_supplier] => no
+    [date_received] => 
+    [expiry_date] => 
+    [notes] => 
+)
+
