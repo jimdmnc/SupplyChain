@@ -74,3 +74,4 @@
 2025-08-29 10:01:48 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=ac2791a91f119474519461167354a9c9cbdbc5b85efdcd5fb28c1124170c7bfd
 2025-08-29 10:03:58 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=068f2d0b36a7853cd1e308d9df9a2964577ca15bfef6959e02e7d566c9efe4a2
 2025-08-29 10:04:00 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=61c1b71da40564bc25992a61d5d82ed3e8cc90d01a8416fc73898df323d3b5b2
+2025-08-30 04:10:22 - Generated URL: http://localhost/SupplyChain/verify_email.php?token=05accd1ee3d9e259cbdce2590688a77f093e05501c5644dbdbc0440a1074c6a6

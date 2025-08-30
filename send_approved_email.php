@@ -1,12 +1,21 @@
 ﻿﻿<?php
-// 1) Start output buffering immediately to catch any stray BOM
+// Turn off all error reporting for production
+error_reporting(0);
+ini_set('display_errors', 0);
+
+// Start output buffering with strict control
+if (ob_get_level()) ob_end_clean();
 ob_start();
 
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-header("Content-Type: application/json");
+// Set JSON header immediately
+header("Content-Type: application/json; charset=utf-8");
 
-// ✅ Manual includes (same structure as your working file)
+// Prevent any caching
+header("Cache-Control: no-cache, no-store, must-revalidate");
+header("Pragma: no-cache");
+header("Expires: 0");
+
+// ✅ Manual includes
 require_once __DIR__ . '/PHPMailer/src/Exception.php';
 require_once __DIR__ . '/PHPMailer/src/PHPMailer.php';
 require_once __DIR__ . '/PHPMailer/src/SMTP.php';
@@ -15,9 +24,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // ✅ Use your working Gmail SMTP credentials
-define('SMTP_USERNAME', 'pinyanagfp.scm@gmail.com');
-define('SMTP_PASSWORD', 'yuiq iriu khmi qden');
-define('SMTP_FROM_EMAIL', 'pinyanagfp.scm@gmail.com');
+define('SMTP_USERNAME', 'mananabas0805@gmail.com');
+define('SMTP_PASSWORD', 'nszf fevq sdhb sgjw');
+define('SMTP_FROM_EMAIL', 'mananabas0805@gmail.com');
 define('SMTP_FROM_NAME', 'Pinana Gourmet');
 
 require 'config.php'; // or db_connection.php
@@ -56,10 +65,10 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = SMTP_USERNAME;
-    $mail->Password   = SMTP_PASSWORD;
+    $mail->Username   = 'mananabas0805@gmail.com';
+    $mail->Password   = 'nszf fevq sdhb sgjw';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port       = 587;
+    $mail->Port = 587;
 
     // Optional: allow self-signed certs (for local testing)
     $mail->SMTPOptions = [
@@ -110,23 +119,34 @@ try {
     $stmt->close();
 
     $conn->commit();
-    echo json_encode(['success' => true]);
-
-} catch (Exception $e) {
-    $conn->rollback();
-    echo json_encode([
-        'success' => false,
-        'message' => 'Error processing approval: ' . $e->getMessage()
-    ]);
-} finally {
-    $conn->close();
-}
-
-// 2) Register a shutdown handler to strip any leading BOM from the buffered output
-register_shutdown_function(function() {
+    
+    // Clean output and send JSON response
     $output = ob_get_clean();
     if (substr($output, 0, 3) === "\xEF\xBB\xBF") {
         $output = substr($output, 3);
     }
-    echo $output;
-});
+    // Remove any extra output that might have been generated
+    ob_clean();
+    echo json_encode(['success' => true]);
+    exit;
+
+} catch (Exception $e) {
+    $conn->rollback();
+    
+    // Clean output and send error response
+    $output = ob_get_clean();
+    if (substr($output, 0, 3) === "\xEF\xBB\xBF") {
+        $output = substr($output, 3);
+    }
+    // Remove any extra output
+    ob_clean();
+    echo json_encode([
+        'success' => false,
+        'message' => 'Error processing approval: ' . $e->getMessage()
+    ]);
+    exit;
+} finally {
+    if (isset($conn) && $conn) {
+        $conn->close();
+    }
+}

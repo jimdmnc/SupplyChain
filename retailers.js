@@ -188,6 +188,36 @@ function handleSendApprovalEmail() {
       `${currentRetailerForApproval.first_name || ""} ${currentRetailerForApproval.last_name || ""}`.trim(),
   }
 
+
+  // In your handleSendApprovalEmail function, change the fetch to:
+fetch("send_approved_email.php", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+    },
+    body: JSON.stringify(emailData),
+})
+.then(response => {
+    console.log("Response status:", response.status);
+    return response.text().then(text => {
+        console.log("Raw response (first 200 chars):", text.substring(0, 200));
+        
+        // Check if it starts with HTML tags
+        if (text.trim().startsWith('<') || text.includes('<!DOCTYPE') || text.includes('<html')) {
+            console.error("HTML content detected instead of JSON!");
+            throw new Error("Server returned HTML instead of JSON. Check PHP errors.");
+        }
+        
+        try {
+            return JSON.parse(text);
+        } catch (e) {
+            console.error("JSON parse error:", e);
+            console.error("Full response:", text);
+            throw new Error("Invalid JSON response from server");
+        }
+    });
+})
+
   // Send email and update status
   fetch("send_approved_email.php", {
     method: "POST",

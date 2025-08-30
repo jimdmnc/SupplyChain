@@ -289,3 +289,6 @@
 2025-08-29 10:04:00 - Attempting to send verification email to: magegonzales05@gmail.com
 2025-08-29 10:04:00 - Logo found and encoded
 2025-08-29 10:04:02 - Error sending verification email: SMTP Error: Could not authenticate.
+2025-08-30 04:10:22 - Attempting to send verification email to: mananabas0805@gmail.com
+2025-08-30 04:10:22 - Logo found and encoded
+2025-08-30 04:10:24 - Error sending verification email: SMTP Error: Could not authenticate.

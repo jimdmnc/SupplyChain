@@ -28,3 +28,6 @@
 2025-07-28 04:42:20 - Retailer status updated: User ID 35 (eldarthewizard@enchantedkigdom.com) changed to pending
 2025-07-28 04:46:01 - Retailer status updated: User ID 35 (eldarthewizard@enchantedkigdom.com) changed to pending
 2025-07-28 04:46:41 - Retailer status updated: User ID 32 (benchlaxa5@gmail.com) changed to pending
+2025-08-29 13:25:30 - Retailer status updated: User ID 35 (eldarthewizard@enchantedkigdom.com) changed to pending
+2025-08-30 04:15:58 - Retailer status updated: User ID 46 (magegonzales05@gmail.com) changed to pending
+2025-08-30 04:16:02 - Retailer status updated: User ID 45 (mananabas0805@gmail.com) changed to pending

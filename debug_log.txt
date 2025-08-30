@@ -10699,3 +10699,20 @@ About to run SQL: SELECT pm.material_id
                            JOIN productions p ON pm.production_id = p.id
                            WHERE p.product_id = ?
 About to run SQL: SELECT id, material_id, name, category, measurement_type, unit_measurement, cost, quantity FROM raw_materials WHERE id = ?
+get_product_recipes.php executed at 2025-08-30T02:44:29+02:00
+About to run SQL: SELECT r.*, 
+                           COUNT(rm.id) as material_count,
+                           SUM(rm.total_cost) as total_material_cost
+                    FROM recipes r
+                    LEFT JOIN recipe_materials rm ON r.id = rm.recipe_id
+                    WHERE r.product_id = ?
+                    GROUP BY r.id
+                    ORDER BY r.created_at DESC
+About to run SQL: SELECT rm.material_id, rm.quantity
+                             FROM recipe_materials rm
+                             JOIN recipes r ON rm.recipe_id = r.id
+                             WHERE r.product_id = ?
+About to run SQL: SELECT pm.material_id
+                           FROM production_materials pm
+                           JOIN productions p ON pm.production_id = p.id
+                           WHERE p.product_id = ?

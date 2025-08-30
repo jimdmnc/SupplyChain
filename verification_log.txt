@@ -193,3 +193,4 @@
 2025-08-29 10:01:04 - Failed to resend verification email to: mananabas0805@gmail.com
 2025-08-29 10:01:49 - Failed to resend verification email to: mananabas0805@gmail.com
 2025-08-29 10:04:02 - Failed to resend verification email to: magegonzales05@gmail.com
+2025-08-30 04:10:24 - Failed to resend verification email to: mananabas0805@gmail.com
