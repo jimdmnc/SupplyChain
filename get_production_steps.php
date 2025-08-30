@@ -21,7 +21,7 @@ try {
         echo json_encode(['error' => 'Production not found']);
         exit;
     }
-
+ 
     // Get production steps with enhanced details
     $steps_sql = "SELECT 
                     ps.*,

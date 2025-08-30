@@ -1114,6 +1114,7 @@
 2025-08-29 08:57:57 - Success: User logged in, ID: 2, Role: admin
 2025-08-29 09:04:08 - Login attempt for username: businessadmin
 2025-08-29 09:04:08 - Success: User logged in, ID: 2, Role: admin
+<<<<<<< Updated upstream
 2025-08-30 04:12:02 - Login attempt for username: businessadmin
 2025-08-30 04:12:02 - Success: User logged in, ID: 2, Role: admin
 2025-08-30 04:20:10 - Login attempt for username: businesspos
@@ -1126,4 +1127,12 @@
 2025-08-30 04:24:50 - Success: User logged in, ID: 2, Role: admin
 2025-08-30 04:41:13 - Login attempt for username: businessadmin
 2025-08-30 04:41:13 - Success: User logged in, ID: 2, Role: admin
+>>>>>>> Stashed changes
+=======
+2025-08-29 15:30:48 - Login attempt for username: businessadmin
+2025-08-29 15:30:49 - Success: User logged in, ID: 2, Role: admin
+2025-08-29 15:31:38 - Login attempt for username: wantargaryen@gmail.com
+2025-08-29 15:31:38 - Error: User not found
+2025-08-29 15:32:49 - Login attempt for username: businessadmin
+2025-08-29 15:32:49 - Success: User logged in, ID: 2, Role: admin
 >>>>>>> Stashed changes

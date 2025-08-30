@@ -11965,6 +11965,7 @@
 [17-Aug-2025 21:15:06 Europe/Berlin] Existing product batch tracking: DISABLED
 [17-Aug-2025 21:15:06 Europe/Berlin] No batch created - product does not have batch tracking enabled
 [17-Aug-2025 21:15:06 Europe/Berlin] Productions update - Parameters: 12, Type string length: 12
+<<<<<<< Updated upstream
 [30-Aug-2025 04:55:21 Europe/Berlin] Received material data: Array
 (
     [material_id] => M029
@@ -12156,3 +12157,131 @@
     [notes] => 
 )
 
+=======
+[29-Aug-2025 15:51:16 Europe/Berlin] [DEBUG] POST data: Array
+(
+    [price] => 0
+    [slug] => pina-pie
+    [batch_code] => B1756475474295
+    [expiration_date] => 2025-09-28
+    [manufacturing_date] => 2025-07-28
+    [production_id] => 400
+    [quantity_produced] => 5
+    [quantity_passed_qc] => 5
+    [quantity_failed_qc] => 0
+    [quality_score] => 95
+    [target_price] => 0
+    [notes] => 
+    [product_id] => SN000222
+    [product_name] => Pina Pie
+    [category] => Snacks
+    [batch_size] => 5
+    [priority] => normal
+    [status] => completed
+    [progress] => 100
+    [actual_completion] => 2025-08-29 13:51:16
+    [actual_duration_hours] => 8
+    [production_type] => new-product
+    [recipe_data] => [object Object]
+    [auto_create_product] => 1
+    [target_expiration_days] => 30
+    [total_material_cost] => 0
+    [total_operational_cost] => 0
+    [total_production_cost] => 0
+    [cost_per_unit] => 0
+    [quality_status] => excellent
+    [quality_notes] => 
+    [quality_checked_by] => Production Manager
+    [quality_checked_at] => 2025-08-29 13:51:16
+    [assigned_to] => Production Team
+    [created_by] => admin
+    [updated_at] => 2025-08-29 13:51:16
+    [yield_percentage] => 100
+    [defect_rate] => 0
+    [quality_grade] => A
+    [quantity_rework] => 0
+    [output_batch_code] => OUT2508290400
+    [shelf_life_days] => 30
+    [material_cost] => 0
+    [labor_cost] => 0
+    [overhead_cost] => 0
+    [total_cost] => 0
+    [packaging_type] => 
+    [packaging_date] => 
+    [storage_location] => 
+    [stocks] => 5
+    [product_expiration_date] => 2025-09-28
+    [batch_tracking] => 0
+)
+
+[29-Aug-2025 15:51:16 Europe/Berlin] [DEBUG] batch_tracking from POST: 0
+[29-Aug-2025 15:51:16 Europe/Berlin] === Production completion started ===
+[29-Aug-2025 15:51:16 Europe/Berlin] POST data received: Array
+(
+    [price] => 0
+    [slug] => pina-pie
+    [batch_code] => B1756475474295
+    [expiration_date] => 2025-09-28
+    [manufacturing_date] => 2025-07-28
+    [production_id] => 400
+    [quantity_produced] => 5
+    [quantity_passed_qc] => 5
+    [quantity_failed_qc] => 0
+    [quality_score] => 95
+    [target_price] => 0
+    [notes] => 
+    [product_id] => SN000222
+    [product_name] => Pina Pie
+    [category] => Snacks
+    [batch_size] => 5
+    [priority] => normal
+    [status] => completed
+    [progress] => 100
+    [actual_completion] => 2025-08-29 13:51:16
+    [actual_duration_hours] => 8
+    [production_type] => new-product
+    [recipe_data] => [object Object]
+    [auto_create_product] => 1
+    [target_expiration_days] => 30
+    [total_material_cost] => 0
+    [total_operational_cost] => 0
+    [total_production_cost] => 0
+    [cost_per_unit] => 0
+    [quality_status] => excellent
+    [quality_notes] => 
+    [quality_checked_by] => Production Manager
+    [quality_checked_at] => 2025-08-29 13:51:16
+    [assigned_to] => Production Team
+    [created_by] => admin
+    [updated_at] => 2025-08-29 13:51:16
+    [yield_percentage] => 100
+    [defect_rate] => 0
+    [quality_grade] => A
+    [quantity_rework] => 0
+    [output_batch_code] => OUT2508290400
+    [shelf_life_days] => 30
+    [material_cost] => 0
+    [labor_cost] => 0
+    [overhead_cost] => 0
+    [total_cost] => 0
+    [packaging_type] => 
+    [packaging_date] => 
+    [storage_location] => 
+    [stocks] => 5
+    [product_expiration_date] => 2025-09-28
+    [batch_tracking] => 0
+)
+
+[29-Aug-2025 15:51:16 Europe/Berlin] Product ID from POST: SN000222
+[29-Aug-2025 15:51:16 Europe/Berlin] Product Name from POST: Pina Pie
+[29-Aug-2025 15:51:16 Europe/Berlin] Production Type from POST: new-product
+[29-Aug-2025 15:51:16 Europe/Berlin] Production type: new-product, Auto create product: 1
+[29-Aug-2025 15:51:16 Europe/Berlin] Checking for existing product with product_id: SN000222
+[29-Aug-2025 15:51:16 Europe/Berlin] Product not found with product_id: SN000222, will create new product
+[29-Aug-2025 15:51:16 Europe/Berlin] Production output - Parameters: 26, Type string length: 26
+[29-Aug-2025 15:51:16 Europe/Berlin] Products - Parameters: 15, Type string length: 15
+[29-Aug-2025 15:51:16 Europe/Berlin] Created product low-stock notification (new product): OK
+[29-Aug-2025 15:51:16 Europe/Berlin] New product batch tracking: DISABLED
+[29-Aug-2025 15:51:16 Europe/Berlin] No batch created - product does not have batch tracking enabled
+[29-Aug-2025 15:51:16 Europe/Berlin] Productions update - Parameters: 12, Type string length: 12
+>>>>>>> Stashed changes
